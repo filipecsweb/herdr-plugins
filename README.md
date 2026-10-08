@@ -18,5 +18,5 @@ Bind it to a key in Herdr's `config.toml`:
 [[keys.command]]
 key = "prefix+="
 type = "plugin_action"
-command = "filipe.pane-equalize.equalize"
+command = "filipecsweb.pane-equalize.equalize"
 ```
