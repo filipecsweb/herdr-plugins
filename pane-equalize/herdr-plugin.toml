@@ -1,0 +1,12 @@
+id = "filipe.pane-equalize"
+name = "Equalize panes"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Give every column in a tab the same width and every row in a column the same height"
+platforms = ["linux", "macos"]
+
+[[actions]]
+id = "equalize"
+title = "Equalize panes"
+contexts = ["pane"]
+command = ["python3", "equalize.py"]
